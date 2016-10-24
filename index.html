@@ -1,1 +1,48 @@
-My Page
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>sfmichels Weather - Dark Sky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+ 
+  </head>
+
+  <body>
+
+  <div class="container content">
+  <div>
+    <img id="fort-point" class="inline-block  hidden-xs hidden-sm visible-md visible-lg" src="https://dl.dropboxusercontent.com/s/vvibltlv6mwu40z/fort-point-breakers.jpg" alt="Fort Point">
+    <img id="bridge-tower" class="inline-block  visible-xs visible-sm hidden-md hidden-lg" src="https://dl.dropboxusercontent.com/s/a7hu0aycpf1g40q/golden-gate-bridge-tower.jpg?dl=0" alt="Bridge Tower">
+  </div>
+
+  <h1 class="text-center">Local Weather</h1>
+  <h2 class="text-center" id="neighborhood">Neighborhood</h2>
+  <h3 class="text-center"><span id="city">City</span>, <span id="state"></span></h3>
+  <h3 class="text-center" id="country"></h3>
+  <h2 class="text-center"><span id="temp">temp </span><span> &#176;</span><span id="degree">F</span></h2>
+  <h2 class="text-center"><span id="description">Weather Description   </span><span><canvas id="icon1" width="80" height="80"><span><canvas id="icon2" width="80" height="80"></canvas</span></h2>
+
+<div id="darksky">
+  <a href="https://darksky.net/poweredby" target='_blank'>
+  <img id="darksky" src="https://darksky.net/dev/img/attribution/poweredby-oneline.png" alt="Darksky"></a>
+    </div>    
+
+  <h4 class="text-center">Written and coded by <a href="https://github.com/sfmichels" target='_blank'> Alan Michels.</a>
+   </h4>
+
+</div>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+<script type='text/javascript' src='config.js'></script>
+
+<script src='https://rawgithub.com/darkskyapp/skycons/master/skycons.js'></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+  </body>
+</html>
