@@ -1,0 +1,84 @@
+
+.content {
+  /* opacity: 1 !important; */
+  z-index: 2;
+  background-repeat: no-repeat;
+  min-height: 679px;
+}
+
+.content #fort-point {
+  width: 120%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  z-index: -1;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content #bridge-tower {
+  height: 150%;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  z-index: -1;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#degree {
+  color: #3366AA;
+  /*color: #7766AA;*/
+}
+
+#me {
+  color: #0066AA;
+}
+
+#credits {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+
+#darksky {
+  color: green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 64px;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 641px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
+
+
+
