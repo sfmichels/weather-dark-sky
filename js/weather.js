@@ -14,8 +14,8 @@ var description;
 var weatherIcon;
 var skycons;
 
-var WEATHER_APPID = config.WEATHER_APPID;
-var GEOCODE_APPID = config.GEOCODE_APPID;
+var WEATHER_APPID = "25c37737449f9aeb70674c2311ee93d6";
+var GEOCODE_APPID = "AIzaSyB-mIwhxvmaq7_k_chW2lGC7mNQQkybAKA";
 
 $(document).ready(function() {
   if (navigator.geolocation) {
